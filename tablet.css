@@ -1,0 +1,71 @@
+/*
+    Tablet/Desktop CSS file for site
+    Author: James W
+*/
+
+/*
+Mobile
+*/
+root{
+    --global-color-1: #2F4F4F;
+    font-family: 'Oswald', sans-serif;
+    }
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    margin-left: 10px;
+
+}
+
+img{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:auto
+}
+/*
+Tablet
+*/
+root{
+    --global-color-1: #2F4F4F;
+    font-family: 'Oswald', sans-serif;
+    }
+
+@media only screen and (max-width: 650px) {
+    body{
+        background-color: #2f4f4f;
+        }
+
+    img{
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:auto
+    }
+    
+}
+
+/*
+Desktop
+*/
+root{
+    --global-color-1: #2F4F4F;
+    font-family: 'Oswald', sans-serif;
+    }
+
+@media only screen and (max-width: 1920px) {
+    body{
+        background-color: #2f4f4f;
+        }
+
+    img{
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:auto
+    }
+    
+}

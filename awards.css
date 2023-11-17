@@ -1,0 +1,70 @@
+/*
+    Awards CSS file for site
+    Author: James W
+*/
+
+:root {
+    --global-color-1: #2F4F4F;
+    font-family: 'Oswald', sans-serif;
+    /*.center: {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:auto
+    }
+    */
+
+}
+
+
+/*____________LINKS____________*/
+
+img{
+    
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:auto
+}
+
+h2{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+    font-style: var(--global-color-1);
+    background-color: #22b9b9;
+    width: max-content;
+    height: 30px;
+    box-shadow: #2F4F4F;
+
+}
+
+h3{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+    text-decoration: none;
+    color: #2F4F4F;
+    font-style: italic;
+}
+
+h4{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+    color: #2F4F4F;
+    font-style: italic;
+    
+}
+
+a:focus, 
+a:hover {
+    font-style: italic;
+}
